@@ -55,8 +55,8 @@ Cartoon stylization service project
   <a href="https://github.com/LiJell/Final-pjt">
     <img src="/assets/README/My%20project.jpg">
   </a>
-
-<p align="center" style="font-size=24px"><br><b>LimnPet</b>은 커스텀 굿즈 제작 과정 간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위한<br> GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스입니다.<p>
+<br>
+<p align="center"><span style="font-size: 18pt;"><b>LimnPet</b>은 커스텀 굿즈 제작 과정 간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위한<br> GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스입니다.</span></p>
 <br>
 <br>
 최근 성장하는 반려동물 시장과 반려동물을 가족 구성원으로 인식하고 감정을 가진 하나의 인격체로 대우하는 현상인 펫 휴머나이제이션 트렌드가 확산되고 있습니다. 때문에 개성을 중요하게 생각하는 MZ세대의 반려인은 반려동물 옷이나 액세서리를 통해 일명 <b>‘펫부심’</b>을 드러내려합니다.
