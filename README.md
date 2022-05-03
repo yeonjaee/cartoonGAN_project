@@ -1,12 +1,5 @@
 # Cartoon stylization service project
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <div align="center">
   <a href="https://github.com/LiJell/Final-pjt">
     <img src="/assets/README/logo.png" alt="Logo" width="80" height="80">
@@ -55,6 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 <br>
 <br>
+
 ## 프로젝트 소개
 
   <a href="https://github.com/LiJell/Final-pjt">
