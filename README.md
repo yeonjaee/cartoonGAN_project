@@ -2,7 +2,8 @@
 
 ![My project](assets/README/My%20project.jpg)
 
-<p text-align="center">
+<div align="center">
+
 ### 목차
 
 1. [프로젝트 소개](#프로젝트-소개)
@@ -19,7 +20,7 @@
 3. [향후 계획](#향후-계획)
 
 4. [자료 및 코드 출처](#자료-및-코드-출처)
-</p>
+</div>
 <br/><br/>
 
 ## 프로젝트 소개
