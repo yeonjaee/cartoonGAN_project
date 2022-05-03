@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/main.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/about.css') }}"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="menu" id="header" role="menu">
+      <nav class="menu navbar navbar-expand-lg navbar-dark nav-distance">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/home_ko"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about_ko">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/service_ko">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact_ko">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/goods_ko">Goods</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/languages"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Languages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <select
+                    name="lng"
+                    onchange="if(this.value) location.href = this.value;"
+                  >
+                    <option type="text">--select--</option>
+                    <option type="text" , value="/home_ko">한국어</option>
+                    <option type="text" , value="/home">English</option>
+                    <option type="text" , value="/home_ja">日本語</option>
+                    <option type="text" , value="/home_es">español</option>
+                    <option type="text" , value="/home_zh-CN">简体中文</option>
+                  </select>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="container">
+      <div class="list">
+        <div class="two">
+          <h1><strong>About</strong></h1>
+          <h3>How & What & Who</h3>
+
+          <div class="profile">
+            <img
+              src="{{ url_for('static', filename = 'img/how.png') }}"
+              alt="cannot load a image"
+            />
+            <div class="intext">
+              <h1 style="color: aliceblue">
+                How Did
+                <span
+                  style="
+                    color: rgb(255, 94, 0);
+                    -webkit-text-stroke: 0.02rem black;
+                  "
+                  >LimnPet</span
+                >
+                Get Started? 🐶
+              </h1>
+              림펫은 반려견 그림이 들어간 커스텀 굿즈 제작을 위해 그림과 굿즈
+              제작 서비스를 따로 진행해야 하는 소비자의 불편함을 해소하고자
+              시작됐습니다.<br />
+              우리의 첫 번째 목표는 반려견 사진을 다양한 그림체로 변환해주는
+              <a href="/service_ko">서비스</a>이며,<br />
+              변환된 사진을 다양한 서비스와 연결하는 꿈을 가지고 있습니다.<br />
+              프로젝트에 대한 자세한 정보는
+              <a href="/contact_ko">Contact</a> 메뉴의
+              <a
+                href="https://limnpet.notion.site/LimnPet-537f6461d3234937ab94dee11671d22a"
+                >Notion</a
+              >을 참고해주시면 감사하겠습니다.
+            </div>
+          </div>
+
+          <div class="profile">
+            <img
+              src="{{ url_for('static', filename = 'img/what.png') }}"
+              alt="cannot load a image"
+            />
+            <div class="intext">
+              <h1 style="color: aliceblue">
+                What Is
+                <span
+                  style="
+                    color: rgb(255, 94, 0);
+                    -webkit-text-stroke: 0.02rem black;
+                  "
+                  >LimnPet</span
+                >? 🐶
+              </h1>
+              <span
+                style="
+                  color: rgb(255, 94, 0);
+                  -webkit-text-stroke: 0.02rem black;
+                "
+                >LimnPet</span
+              >은 반려동물의 사진을 다양한 스타일의 그림체 사진으로 변환해주는
+              <a href="/service_ko">서비스</a>입니다.<br />
+              여러분은 더이상 반려동물의 그림을 얻기위해 돈을 지불할 필요가
+              없습니다.<br />이제부터 당신은 LimnPet
+              <a href="/service_ko">서비스</a>에 사진을 넣고 변환된 사진을
+              저장만 하면됩니다.<br />
+              <span
+                style="
+                  color: rgb(255, 94, 0);
+                  -webkit-text-stroke: 0.02rem black;
+                "
+                >LimnPet</span
+              >을 통해서 생성된 사진을 다양한 <a href="/service_ko">서비스</a>에
+              적용시켜보세요.<br />
+              만약 반려견의 그림 사진이 들어간 커스텀 굿즈를 구매하고 싶으시면,
+              메뉴에서 <a href="/goods_ko">Goods</a> 항목을 선택하세요.
+            </div>
+          </div>
+
+          <div class="profile">
+            <img
+              src="{{ url_for('static', filename = 'img/who.png') }}"
+              alt="cannot load a image"
+            />
+            <div class="intext">
+              <h1 style="color: aliceblue">
+                Who
+                <span
+                  style="
+                    color: rgb(255, 94, 0);
+                    -webkit-text-stroke: 0.02rem black;
+                  "
+                  >We</span
+                >
+                Are? 🐶
+              </h1>
+              림펫 개발팀은 김한주, 성연재, 김민지, 송종호, 정영훈, 총 5명으로
+              이루어져있습니다.<br />
+              다양한 전공과 배경을 가진 팀원들이지만 하나의 목표를 함께 이루기
+              위해 노력하고 있습니다.<br />
+              인공지능은 더 이상 어렵고 낯설기만한 분야가 아니라, 개개인의 생활
+              속에 녹아들고 있습니다.<br />
+              저희는 이러한 인공지능을 이용해, 가족의 일원으로 여겨지는
+              반려동물에 대한 서비스를 제공하고자 합니다.<br />
+              반려견을 그려주는 서비스는 시작일 뿐입니다.<br />
+              앞으로 더욱 다양한 서비스를 제공할 수 있도록 노력하겠습니다.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

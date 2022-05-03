@@ -1,13 +1,14 @@
 body {
-  background-color: #6bcb77;
+  background: linear-gradient(to right, #F2994A, #F2C94C);
 }
 
 select {
-  width: 5rem;
+  width: 10rem;
   padding: .5rem .5rem;
   margin: .5rem auto;
   border: 1px solid #999;
-  font-size: .8rem;
+  font-size: 1rem;
+  font-weight: 700;
   border-radius: 0.7rem;
   }
 
@@ -19,3 +20,21 @@ select {
   margin-top: 100px;
 }
 
+.example {
+  display:inline-block;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.example img {
+  width:10rem;
+  /* height: 20rem; */
+  border: 0.4rem outset rgba(241, 143, 16, 0.87);
+  border-radius: 2rem;
+  vertical-align:middle;
+}
+
+.sample {
+  display:inline-block;
+  vertical-align:middle;
+}

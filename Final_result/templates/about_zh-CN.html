@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/main.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/about.css') }}"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="menu" id="header" role="menu">
+      <nav class="menu navbar navbar-expand-lg navbar-dark nav-distance">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/home_zh-CN"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about_zh-CN">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/service_zh-CN">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact_zh-CN">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/goods_zh-CN">Goods</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/languages"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Languages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <select
+                    name="lng"
+                    onchange="if(this.value) location.href = this.value;"
+                  >
+                    <option type="text">--select--</option>
+                    <option type="text" , value="/home_ko">한국어</option>
+                    <option type="text" , value="/home">English</option>
+                    <option type="text" , value="/home_ja">日本語</option>
+                    <option type="text" , value="/home_es">español</option>
+                    <option type="text" , value="/home_zh-CN">简体中文</option>
+                  </select>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="container">
+      <div class="list">
+        <div class="two">
+          <h1><strong>About</strong></h1>
+          <h3>How & What & Who</h3>
+
+          <div class="profile">
+            <img
+              src="{{ url_for('static', filename = 'img/how.png') }}"
+              alt="cannot load a image"
+            />
+            <div class="intext">
+              <h1 style="color: aliceblue">
+                How Did
+                <span
+                  style="
+                    color: rgb(255, 94, 0);
+                    -webkit-text-stroke: 0.02rem black;
+                  "
+                  >LimnPet</span
+                >
+                Get Started? 🐶
+              </h1>
+              Limnpet
+              的启动是为了缓解消费者必须进行单独的绘图和商品生产服务来生产定制宠物印刷品的不便。<br />
+              我们的第一个目标是将狗的图片转换成各种绘画风格。<br />
+              此外，我们还有一个梦想，就是将转换后的图片连接成各种服务。<br />
+              有关该项目的更多信息，请参阅“联系”菜单中的“<a
+                href="https://limnpet.notion.site/LimnPet-537f6461d3234937ab94dee11671d22a"
+                >概念</a
+              >”。
+            </div>
+          </div>
+
+          <div class="profile">
+            <img
+              src="{{ url_for('static', filename = 'img/what.png') }}"
+              alt="cannot load a image"
+            />
+            <div class="intext">
+              <h1 style="color: aliceblue">
+                What Is
+                <span
+                  style="
+                    color: rgb(255, 94, 0);
+                    -webkit-text-stroke: 0.02rem black;
+                  "
+                  >LimnPet</span
+                >? 🐶
+              </h1>
+              <span
+                style="
+                  color: rgb(255, 94, 0);
+                  -webkit-text-stroke: 0.02rem black;
+                "
+                >LimnPet</span
+              >
+              是一种造型服务，可以让你的宠物照片变成各种绘画风格。<br />
+              您不再需要为宠物照片的样式付费。<br />
+              通过
+              <span
+                style="
+                  color: rgb(255, 94, 0);
+                  -webkit-text-stroke: 0.02rem black;
+                "
+                >LimnPet</span
+              >, 我们简化了购买宠物定制商品的复杂流程。<br />
+              从现在开始，您只需将您的宠物照片上传到
+              <span
+                style="
+                  color: rgb(255, 94, 0);
+                  -webkit-text-stroke: 0.02rem black;
+                "
+                >LimnPet</span
+              >
+              服务并保存您新样式的照片！<br />
+              如果您想购买风格化的宠物印花定制商品，请从菜单中选择<a
+                href="/goods_zh-CN"
+                >商品</a
+              >。
+            </div>
+          </div>
+
+          <div class="profile">
+            <img
+              src="{{ url_for('static', filename = 'img/who.png') }}"
+              alt="cannot load a image"
+            />
+            <div class="intext">
+              <h1 style="color: aliceblue">
+                Who
+                <span
+                  style="
+                    color: rgb(255, 94, 0);
+                    -webkit-text-stroke: 0.02rem black;
+                  "
+                  >We</span
+                >
+                Are? 🐶
+              </h1>
+              LimnPet 开发团队有五名成员：Hanju Kim、Yeon-Jae Seong、Min-Ji
+              Kim、Jong-Ho Song 和 Young-Hoon Jeong。<br />
+              即使我们主修所有不同的领域，我们也在朝着一个目标前进。<br />
+              现在，在我们的日常生活中很容易找到人工智能服务。<br />
+              因此，通过
+              LimnPet，我们试图为家庭成员之一宠物提供人工智能服务。<br />
+              吸引宠物的服务仅仅是个开始。<br />
+              未来我们将尽最大努力提供更多样化的服务。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

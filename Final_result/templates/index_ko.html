@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="google-site-verification"
+      content="0025mGEf2ZtX4gjWrrrs9xwChLlHo91qx0srZPNUsXw"
+    />
+    <meta
+      name="naver-site-verification"
+      content="0020cbb83cc0440060b4a81f8a1ad25474064596"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LimnPet 🐶</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../static/css/main.css" />
+    <link rel="stylesheet" href="../static/css/scroll.css" />
+    <link rel="stylesheet" href="../static/css/banner.css" />
+    <link rel="stylesheet" href="../static/css/slideshow.css" />
+    <link rel="stylesheet" href="../static/css/contact.css" />
+    <link rel="stylesheet" href="../static/css/goods.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="list">
+      <div class="one">
+        <main class="slide_container">
+          <section class="slideshow">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="overlay">
+              <h1>
+                <p
+                  style="
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                  "
+                >
+                  당신의 펫을 그려보세요, LimnPet
+                </p>
+                <br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br />
+                <button
+                  class="button btn2"
+                  type="button"
+                  onClick="location.href='/service_ko'"
+                >
+                  <span class="image-title">림펫서비스로 이동</span>
+                </button>
+               </h1>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <div id="container" role="main">
+      <div class="menu" id="header" role="menu">
+        <nav class="menu navbar navbar-expand-lg navbar-dark nav-distance">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/home_ko"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about_ko">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/service_ko">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact_ko">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/goods_ko">Goods</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="/languages"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Languages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <select
+                      name="lng"
+                      onchange="if(this.value) location.href = this.value;"
+                    >
+                      <option type="text">--select--</option>
+                      <option type="text" , value="/home_ko">한국어</option>
+                      <option type="text" , value="/home">English</option>
+                      <option type="text" , value="/home_ja">日本語</option>
+                      <option type="text" , value="/home_es">español</option>
+                      <option type="text" , value="/home_zh-CN">
+                        简体中文
+                      </option>
+                    </select>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="list">
+        <div class="two">
+          <section id="slideshow">
+            <div class="entire-content">
+              <div class="content-carrousel">
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/hayao.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/shinkai.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/monet.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/ladyoscar.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/onepiece.jpg') }}"
+                  />
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <p style="font-size: 60px; font-weight: 600; color: aliceblue">
+            안녕하세요, 림펫입니다! 🐶
+          </p>
+          <p style="font-size: 20px; font-style: italic; color: aliceblue">
+            LimnPet으로 반려견의 사진을 다양한 그림체로 변환해 보세요!
+          </p>
+          <br /><br />
+            <h1 style="color: aliceblue">
+              What Is
+              <span
+                style="
+                  color: rgb(255, 94, 0);
+                  -webkit-text-stroke: 0.02rem black;
+                "
+                >LimnPet</span
+              >? 🐶
+            </h1>
+            <div class="intext"             style="
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 3;
+            color: rgba(255, 255, 255, 0.733);
+          ">
+            <span
+              style="color: rgb(255, 94, 0); -webkit-text-stroke: 0.02rem black"
+              >LimnPet</span
+            >은 반려동물의 사진을 다양한 스타일의 그림체 사진으로 변환해주는
+            <a href="/service_ko">서비스</a>입니다.<br />
+            여러분은 더이상 반려동물의 그림을 얻기위해 돈을 지불할 필요가
+            없습니다.<br />이제부터 당신은 LimnPet
+            <a href="/service_ko">서비스</a>에 사진을 넣고 변환된 사진을 저장만
+            하면됩니다.<br />
+            <span
+              style="color: rgb(255, 94, 0); -webkit-text-stroke: 0.02rem black"
+              >LimnPet</span
+            >을 통해서 생성된 사진을 다양한 <a href="/service_ko">서비스</a>에
+            적용시켜보세요.<br />
+            만약 반려견의 그림 사진이 들어간 커스텀 굿즈를 구매하고 싶으시면,
+            메뉴에서 <a href="/goods_ko">Goods</a> 항목을 선택하세요.
+          </div>
+          <p style="font-size: 48px; font-weight: 500; color: aliceblue">
+            <br /><br /><u>향후 계획</u>
+          </p>
+
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/collabo.jpg') }}"
+              alt=""
+            />
+            <p>
+              LimnPet의 굿즈 에디션!<br />
+              <span style="color: #ff483b; font-weight: 800"
+                >다양한 아티스트, 브랜드와 콜라보레이션</span
+              >
+            </p>
+          </div>
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/option.jpg') }}"
+              alt=""
+            />
+            <p>
+              사진을 더 이쁘게 꾸밀 수 있는<br><span style="color: #ff483b; font-weight: 800">포토샵 옵션 추가</span
+              >
+            </p>
+          </div>
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/emoji.png') }}"
+              alt=""
+            />
+            <p>
+              나만의 반려견<br>
+              <span style="color: #ff483b; font-weight: 800">이모티콘</span
+              >만들기
+            </p>
+          </div>
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/nft.jpg') }}"
+              alt=""
+            />
+            <p>
+              변환된 사진을<br />
+              <span style="color: #ff483b; font-weight: 800">NFT</span>로<br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="three" style="padding-top: 15rem; color: aliceblue">
+          <p style="font-size: 48px; font-weight: 600; color: aliceblue">
+            서비스 전&후 비교 🎨
+          </p>
+          <div class="beforeafter">
+            <iframe
+              style="width: 100%; height: 100%"
+              frameborder="0"
+              class="juxtapose"
+              src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6093a3be-c451-11ec-b5bb-6595d9b17862"
+            ></iframe>
+          </div>
+          <p style="font-weight: 600; font-size: 30px; color: black">
+            <br />바를 움직여보세요
+          </p>
+          <div id="service_button">
+            <button
+              class="remove-image"
+              type="button"
+              onClick="location.href='/service_ko'"
+            >
+              <span class="image-title">림펫서비스로 이동</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="four" style="padding-top: 15rem">
+          <h1
+            style="
+              text-align: center;
+              font-size: 48px;
+              font-weight: 600;
+              color: aliceblue;
+            "
+          >
+            굿즈 제작 사이트 🎁
+          </h1>
+          <div style="padding-top: 2rem; padding-bottom: 2rem">
+            <h4>
+              <p style="color: white">
+                변환된 사진으로 나만의 펫 상품을 만들어보세요!
+              </p>
+              <p style="color: white">
+                새롭게 디자인된 이미지로 굿즈을 만들기 원하시면 아래 그림을 클릭하세요
+              </p>
+              <p style="color: red">
+                현재 굿즈 회사의 서비스는 한국에서만 가능합니다
+              </p>
+            </h4>
+          </div>
+          <div class="lists">
+            <div class="list1">
+              <div style='background-image:url("../../static/img/cloth_modified.jpg")' class="img">
+                <a href="https://www.bizhows.com/v/category?mock=product_list_007&categoryName=%ED%8B%B0%EC%85%94%EC%B8%A0" class="ac1" target="blank">
+                  <div
+                    class="imc1"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cloth_origin.jpg')"
+                    class="dis1"
+                  >
+                    비즈하우스
+                  </div>
+                </a>
+                <a href="https://www.publog.co.kr/apparel/" class="ac2" target="blank">
+                  <div
+                    class="imc2"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cloth_origin.jpg')"
+                    class="dis2"
+                  >
+                    퍼블로그
+                  </div>
+                </a>
+                <a href="https://www.tpana.com/" class="ac3" target="blank">
+                  <div
+                    class="imc3"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cloth_origin.jpg')"
+                    class="dis3"
+                  >
+                    티파나
+                  </div>
+                </a>
+                <a href="https://www.customzone.co.kr/" class="ac4" target="blank">
+                  <div
+                    class="imc4"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cloth_origin.jpg')"
+                    class="dis4"
+                  >
+                    커스텀존
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">의류</p>
+          </div>
+          <div class="lists">
+            <div class="list2">
+              <div
+              style="background-image: url('../../static/img/griptok_modified.jpg')"
+              class="img">
+                <a href="http://www.bandya.com/product/list.html?cate_no=152" class="ac1" target="blank">
+                  <div
+                    class="imc1"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/griptok_origin.jpg')"
+                    class="dis1"
+                  >
+                    반디야
+                  </div>
+                </a>
+                <a href="https://www.marpple.com/kr/cases" class="ac2" target="blank">
+                  <div
+                    class="imc2"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/griptok_origin.jpg')"
+                    class="dis2"
+                  >
+                    마플
+                  </div>
+                </a>
+                <a href="https://www.phoneppu.com/product/custom_list.html?cate_no=3275" class="ac3" target="blank">
+                  <div
+                    class="imc3"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/griptok_origin.jpg')"
+                    class="dis3"
+                  >
+                    폰뿌
+                  </div>
+                </a>
+                <a href="https://shapely.co.kr/" class="ac4" target="blank">
+                  <div
+                    class="imc4"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/griptok_origin.jpg')"
+                    class="dis4"
+                  >
+                    셰이플리
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">핸드폰 악세서리</p>
+          </div>
+          <div class="lists">
+            <div class="list3">
+              <div
+              style="background-image: url('../../static/img/cup_modified.jpg')"
+              class="img">
+                <a href="http://www.handmc.com/" class="ac1" target="blank">
+                  <div
+                    class="imc1"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cup_origin.jpg')"
+                    class="dis1"
+                  >
+                    핸드메이드씨
+                  </div>
+                </a>
+                <a href="http://www.jjomool.com/" class="ac2" target="blank">
+                  <div
+                    class="imc2"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cup_origin.jpg')"
+                    class="dis2"
+                  >
+                    쪼물샵
+                  </div>
+                </a>
+                <a href="https://www.tobuymall.com/goods/goods_list.php?cateCd=025002" class="ac3" target="blank">
+                  <div
+                    class="imc3"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cup_origin.jpg')"
+                    class="dis3"
+                  >
+                    TBL
+                  </div>
+                </a>
+                <a
+                  href="http://www.thankshop.co.kr/shopuser/goods/productList.html?largeno=92&kind=normal"
+                  class="ac4" target="blank"
+                >
+                  <div
+                    class="imc4"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/cup_origin.jpg')"
+                    class="dis4"
+                  >
+                    떙스샵
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">생활용품</p>
+          </div>
+          <div class="lists">
+            <div class="list4">
+              <div
+              style="background-image: url('../../static/img/sticker_modified.jpg')"
+              class="img">
+                <a href="https://www.smilecat.com/" class="ac1" target="blank">
+                  <div
+                    class="imc1"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/sticker_origin.jpg')"
+                    class="dis1"
+                  >
+                    스마일캣
+                  </div>
+                </a>
+                <a href="http://www.adsland.com/" class="ac2" target="blank">
+                  <div
+                    class="imc2"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/sticker_origin.jpg')"
+                    class="dis2"
+                  >
+                    애드스랜드
+                  </div>
+                </a>
+                <a href="https://www.snaps.com/store/calendar/overview?g_media=google&g_keyword=%EB%8B%AC%EB%A0%A5%EC%A3%BC%EB%AC%B8%EC%A0%9C%EC%9E%91&gclid=Cj0KCQjw37iTBhCWARIsACBt1IzYqwP6nrQ9phP3ijLab9ZUS_XVVxpXajcShzw3rKgPN3-i7cy8jSwaAkElEALw_wcB" class="ac3" target="blank">
+                  <div
+                    class="imc3"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/sticker_origin.jpg')"
+                    class="dis3"
+                  >
+                    Snaps
+                  </div>
+                </a>
+                <a href="http://www.huniprinting.com/" class="ac4" target="blank">
+                  <div
+                    class="imc4"
+                  ></div>
+                  <div
+                    style="background-image: url('../../static/img/sticker_origin.jpg')"
+                    class="dis4"
+                  >
+                    후니프린팅
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">그 외 기타</p>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <div class="five" style="padding-top: 15rem">
+          <div>
+            <h1
+              style="
+                text-align: center;
+                font-size: 48px;
+                font-weight: 600;
+                color: aliceblue;
+                padding-bottom: 5rem;
+              "
+            >
+              연락처 📧
+            </h1>
+          </div>
+          <div class="member">
+            <img src="{{ url_for('static', filename = 'img/contact/khj.png') }}" />
+            <p>김한주</p>
+            <p>E-mail : hanjukim0922@gmail.com</p>
+            <p>카카오톡 : hj0922</p>
+          </div>
+          <div class="member">
+            <img src="{{ url_for('static', filename = 'img/contact/kmj.png') }}" />
+            <p>김민지</p>
+            <p>E-mail : vp9397@naver.com</p>
+            <p>카카오톡 : woodbvo12</p>
+          </div>
+          <div class="member">
+            <img src="{{ url_for('static', filename = 'img/contact/syj.png') }}" />
+            <p>성연재</p>
+            <p>E-mail : siriyay@naver.com</p>
+            <p>카카오톡 : proofreadd</p>
+          </div>
+          <div class="member">
+            <img src="{{ url_for('static', filename = 'img/contact/sjh.png') }}" />
+            <p>송종호</p>
+            <p>E-mail : sjh7397@naver.com</p>
+            <p>카카오톡 : Lilac3</p>
+          </div>
+          <div class="member">
+            <img src="{{ url_for('static', filename = 'img/contact/jyh.png') }}" />
+            <p>정영훈</p>
+            <p>E-mail : gi93008@naver.com</p>
+            <p>카카오톡 : gannak8</p>
+          </div>
+          <div>
+            <a href="https://www.limnpet.ml" class="ct">Home</a>
+            <a
+              href="http://limnpet.notion.site/LimnPet-537f6461d3234937ab94dee11671d22a"
+              class="ct"
+              >Notion</a
+            >
+            <a href="https://github.com/LiJell/Final-pjt" class="ct">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="six">
+          <div class="footer-info">
+            <p class="footer-info__name">
+              <img src="{{ url_for('static', filename = 'img/footer.png') }}" />
+            </p>
+            <p class="footer-info__text">
+              <span>림펫 LIMNPET</span>
+              |
+              <span>
+                <em>출처</em>
+                <a
+                  href="/img_src"
+                  target="_blank"
+                  style="text-decoration: none; color: white"
+                >
+                  사용 이미지 출처</a
+                >
+              </span>
+              |
+              <span>
+                <em>made by</em>
+                LIMNPET TEAM
+              </span>
+              |
+              <span>
+                <em>team_email</em>
+                allislijell@gmail.com
+              </span>
+              <br />
+              <br />
+              저작권 정책
+              <br />
+              이 서비스는 교육 목적으로만 제한됩니다.<br>모든 저작권은 당사가 제공하는 각 아티스트에게 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    >
+      let test = document.getElementById("example");
+
+      test.addEventListener("mouseover", function (event) {
+      //highlight the mouseover target
+      event.target.style.color = "red";
+      }, false);
+
+      test.addEventListener("mouseout", function (event) {
+      // highlight the mouseout target
+      event.target.style.color = "black";
+      }, false);
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,142 +1,157 @@
 body {
-  font-family: 'Gowun Dodum', sans-serif;
+  font-family: "Gowun Dodum", sans-serif;
 }
 
-/* 상단바 */
-
-.menu * {
-  display: inline;
-}
-
-.menu li {
-  margin: 35px;
-}
-
-.menu li a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-.menu ul {
-  padding-left: 0px;
-}
-
-.menu {
-  opacity:0.5;
-  background-color:#000000;
+.menu .navbar-dark {
+  font-family: "Gowun Dodum", sans-serif;
+  background: rgba(0, 0, 0, 0.7);
   font-size: 1.5rem;
-  font-style: italic;
-  align-items: center;
-  text-align: center;
+  /* font-style: italic Bold; */
+  /* align-items: center; text-align: center; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 2.8rem;
+  height: 3.2rem;
+  z-index: 5;
 }
-@media screen and (max-width: 719px) {
-  .menu {
-    height: 5rem;
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+@media screen and (min-width: 992px) {
+  .menu ul {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-}
-@media screen and (max-width: 419px) {
-  .menu {
-    height: 7rem;
-  }
-}
-@media screen and (max-width: 289px) {
-  .menu {
-    height: 9rem;
-  }
-}
-@media screen and (max-width: 269px) {
-  .menu {
-    height: 11rem;
+  .menu li {
+    margin: 35px;
   }
 }
 
-/* page 1 */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+  .menu .navbar-dark {
+    font-size: 2.1rem;
+    height: 5rem;
+  }
+  .navbar-toggler {
+    font-size: 2rem;
+  }
+}
+.nav-link {
+  padding: 0rem 0rem;
+}
+.dropdown-menu {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem;
+  margin: 0;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border: 0px;
+}
+
+/* Banner 1 */
 .one {
   background-size: cover;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  width: 100%;
+  height: 100%;
 }
 
-.profile {
-  width : 40rem;
-  border-radius: 30%;
-  display: inline-block;
-  padding: 0.5rem;
-  margin-bottom: 2rem;
-  background-color: rgba(255, 211, 16, 0.89);
-  border: 1px solid rgb(255, 255, 255, 0.5);
-}
-
-.profile img {
-  width:38rem;
-  border-radius: 30%;
-}
-
-/* page 2 */
+/* About 2 */
 .two {
   background-size: cover;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
-.slide {
-  margin:0 auto; 
-  padding-bottom:3rem;
-  width:38rem;
-}
 .intext {
-  padding-top: 5rem;
-} 
+  padding-top: 2rem;
+}
 
-/* page 3 */
+.futureplans {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+}
+
+.futureplans_img {
+  background-color: #6ec5b8;
+  width: 350px;
+  height: 350px;
+  margin: 5vh 2vh;
+  border: 2mm ridge #8b6332;
+  border-radius: 5%;
+  box-shadow: 0 10px 10px -4px #000;
+}
+
+/* Service */
 .three {
   background-size: cover;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+}
+.beforeafter {
+  display: inline-block;
+  margin: 0 auto;
+  width: 70vh;
+  height: 60vh;
+  padding-top: 39px;
 }
 
-/* page 4 */
+@media screen and (max-width: 719px) {
+  .beforeafter {
+    width: 50vh;
+    height: 40vh;
+  }
+}
+.remove-image {
+  width: 20rem;
+  margin: 1rem;
+  color: rgb(255, 255, 255);
+  background: #4777e6e8;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.remove-image:hover {
+  background: #4776e6;
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.remove-image:active {
+  border: 0;
+  transition: all 0.2s ease;
+}
 
+/* Contact 4 */
 .four {
   text-align: center;
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
-.contact_img {
-  margin: auto;
-  width: 70rem;
-  padding-bottom: 1rem;
-}
-
-.ct {
-  text-decoration: none;
-  color: white;
-  font-size: 2rem;
-  font-style: italic;
-  margin:4rem;
-}
-
-
-/* page 5 */
-
-.five {
-  text-align: center;
-  align-items: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .lists {
   display: block;
   font-weight: 400;
@@ -145,17 +160,46 @@ body {
   display: inline-block;
 }
 
-.list_img {
-  width: 300px;
-  height: 300px;
-  margin: 5vh 2vh;
+/* Goods 5 */
+
+.five {
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-/* page 6 */
+.ct {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  margin: 4rem;
+}
 
+/* 6 */
 .six {
   text-align: center;
   align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
+}
+
+.footer-info {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.footer-info__text {
+  gap: 12px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  align-items: center;
+  /* margin-bottom: 14px; */
+}
+
+.footer-info__text span em {
+  color: rgb(90, 90, 90);
+  font-weight: 200;
+  margin-right: 0.3em;
 }

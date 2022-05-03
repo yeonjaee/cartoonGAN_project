@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="google-site-verification"
+      content="0025mGEf2ZtX4gjWrrrs9xwChLlHo91qx0srZPNUsXw"
+    />
+    <meta
+      name="naver-site-verification"
+      content="0020cbb83cc0440060b4a81f8a1ad25474064596"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LimnPet 🐶</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename = 'favicon.ico') }}"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/main.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/scroll.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/banner.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/slideshow.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/goods.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/contact.css') }}"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="list">
+      <div class="one">
+        <main class="slide_container">
+          <section class="slideshow">
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+            <div class="overlay">
+              <h1>
+                <p
+                  style="
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                  "
+                >
+                  dibujando a tu mascota, LimnPet
+                </p>
+                <br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br />
+                <button
+                  class="button btn2"
+                  type="button"
+                  onClick="location.href='/service_es'"
+                >
+                  <span>Pruebe el servicio Limnpet</span>
+                </button>
+              </h1>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <div id="container" role="main">
+      <div class="menu" id="header" role="menu">
+        <nav class="menu navbar navbar-expand-lg navbar-dark nav-distance">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/home_es"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about_es">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/service_es">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact_es">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/goods_es">Goods</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="/languages"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Languages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <select
+                      name="lng"
+                      onchange="if(this.value) location.href = this.value;"
+                    >
+                      <option type="text">--select--</option>
+                      <option type="text" , value="/home_ko">한국어</option>
+                      <option type="text" , value="/home">English</option>
+                      <option type="text" , value="/home_ja">日本語</option>
+                      <option type="text" , value="/home_es">español</option>
+                      <option type="text" , value="/home_zh-CN">
+                        简体中文
+                      </option>
+                    </select>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="list">
+        <div class="two">
+          <section id="slideshow">
+            <div class="entire-content">
+              <div class="content-carrousel">
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/hayao.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/shinkai.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/monet.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/ladyoscar.jpg') }}"
+                  />
+                </figure>
+                <figure class="shadow">
+                  <img
+                    src="{{ url_for('static', filename = 'img/slideshow/onepiece.jpg') }}"
+                  />
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <p style="font-size: 60px; font-weight: 600; color: aliceblue">
+            ¡Hola, somos LimnPet! 🐶
+          </p>
+          <p style="font-size: 20px; font-style: italic; color: aliceblue">
+            LimnPet es un servicio de estilismo que convierte las fotos de tus
+            mascotas en varios estilos de pintura.
+          </p>
+          <br /><br />
+          <h1 style="font-weight: bold; color: aliceblue">
+            Qué es
+            <span style="font-weight: bold; color: rgb(255, 81, 0)"
+              >LimnPet</span
+            >?
+          </h1>
+          <div
+            class="intext"
+            style="
+              font-size: 28px;
+              font-weight: 400;
+              line-height: 3;
+              color: rgba(255, 255, 255, 0.733);
+            "
+          >
+            Ya no tienes que pagar por el estilo de las fotos de tus
+            mascotas.<br />
+            A través de <a href="/about_es">LimnPet</a>, hemos simplificado el
+            complicado proceso de compra de productos personalizados para
+            mascotas.<br />
+            A partir de ahora, todo lo que necesita hacer es cargar una imagen
+            de su mascota en el servicio <a href="/service_es">LimnPet</a> y
+            guardar su nueva imagen.<br />
+            Si desea comprar artículos personalizados con estampados de mascotas
+            estilizados, seleccione
+            <a href="/goods_es">Artículos</a> en el menú.
+          </div>
+
+          <p style="font-size: 48px; font-weight: 500; color: aliceblue">
+            <br /><br /><u>Planes futuros</u>
+          </p>
+
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/collabo.jpg') }}"
+              alt=""
+            />
+            <p>
+              Edición de artículos exclusivos de LimnPet<br />
+              <span style="color: #ff483b; font-weight: 800"
+                >a través de la colaboración con el artista, la marca de
+                productos</span
+              >
+            </p>
+          </div>
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/option.jpg') }}"
+              alt=""
+            />
+            <p>
+              considerando agregar<br />
+              <span style="color: #ff483b; font-weight: 800"
+                >opciones de manipulación de fotos</span
+              ><br />
+            </p>
+          </div>
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/emoji.png') }}"
+              alt=""
+            />
+            <p>
+              Fotos de mascotas estilizadas en tu propio<br />
+              <span style="color: #ff483b; font-weight: 800">emoji</span>
+            </p>
+          </div>
+          <div class="futureplans">
+            <img
+              class="futureplans_img"
+              src="{{ url_for('static', filename = 'img/futureplans/nft.jpg') }}"
+              alt=""
+            />
+            <p>
+              Fotos de mascotas estilizadas en<br />
+              <span style="color: #ff483b; font-weight: 800">NFT</span><br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="three" style="padding-top: 15rem; color: aliceblue">
+          <p style="font-size: 48px; font-weight: 600">
+            Servicio Antes y Después 🎨
+          </p>
+
+          <div class="beforeafter">
+            <iframe
+              style="width: 100%; height: 100%"
+              frameborder="0"
+              class="juxtapose"
+              src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6093a3be-c451-11ec-b5bb-6595d9b17862"
+            >
+            </iframe>
+          </div>
+          <p style="font-weight: 600; font-size: 30px">
+            <br />Mover la barra de navegación
+          </p>
+          <div id="service_button">
+            <button
+              class="remove-image"
+              type="button"
+              onClick="location.href='/service_es'"
+            >
+              <span class="image-title">Mover al servicio Limnpet</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="four" style="padding-top: 15rem">
+          <h1
+            style="
+              text-align: center;
+              font-size: 48px;
+              font-weight: 600;
+              color: aliceblue;
+            "
+          >
+            tienda de productos 🎁
+          </h1>
+          <div style="padding-top: 2rem; padding-bottom: 2rem">
+            <h4>
+              <p style="color: white">
+                ¡Haga sus productos para mascotas personalizados con una imagen
+                convertida a través de Limnpet!
+              </p>
+              <p style="color: white">
+                Si desea utilizar la imagen recién estilizada como producto,
+                haga clic en la imagen a continuación.
+              </p>
+              <p style="color: red">
+                Los sitios web de productos solo están disponibles en Corea por
+                ahora.
+              </p>
+            </h4>
+          </div>
+          <div class="lists">
+            <div class="list1">
+              <div
+                style="
+                  background-image: url('../../static/img/cloth_modified.jpg');
+                "
+                class="img"
+              >
+                <a
+                  href="https://www.bizhows.com/v/category?mock=product_list_007&categoryName=%ED%8B%B0%EC%85%94%EC%B8%A0"
+                  class="ac1"
+                  target="blank"
+                >
+                  <div class="imc1"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cloth_origin.jpg');
+                    "
+                    class="dis1"
+                  >
+                    Bizhows
+                  </div>
+                </a>
+                <a
+                  href="https://www.publog.co.kr/apparel/"
+                  class="ac2"
+                  target="blank"
+                >
+                  <div class="imc2"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cloth_origin.jpg');
+                    "
+                    class="dis2"
+                  >
+                    Publog
+                  </div>
+                </a>
+                <a href="https://www.tpana.com/" class="ac3" target="blank">
+                  <div class="imc3"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cloth_origin.jpg');
+                    "
+                    class="dis3"
+                  >
+                    Tpana
+                  </div>
+                </a>
+                <a
+                  href="https://www.customzone.co.kr/"
+                  class="ac4"
+                  target="blank"
+                >
+                  <div class="imc4"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cloth_origin.jpg');
+                    "
+                    class="dis4"
+                  >
+                    Customzone
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">Ropa</p>
+          </div>
+          <div class="lists">
+            <div class="list2">
+              <div
+                style="
+                  background-image: url('../../static/img/griptok_modified.jpg');
+                "
+                class="img"
+              >
+                <a
+                  href="http://www.bandya.com/product/list.html?cate_no=152"
+                  class="ac1"
+                  target="blank"
+                >
+                  <div class="imc1"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/griptok_origin.jpg');
+                    "
+                    class="dis1"
+                  >
+                    Bandya
+                  </div>
+                </a>
+                <a
+                  href="https://www.marpple.com/kr/cases"
+                  class="ac2"
+                  target="blank"
+                >
+                  <div class="imc2"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/griptok_origin.jpg');
+                    "
+                    class="dis2"
+                  >
+                    MARPPLE
+                  </div>
+                </a>
+                <a
+                  href="https://www.phoneppu.com/product/custom_list.html?cate_no=3275"
+                  class="ac3"
+                  target="blank"
+                >
+                  <div class="imc3"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/griptok_origin.jpg');
+                    "
+                    class="dis3"
+                  >
+                    Phoneppu
+                  </div>
+                </a>
+                <a
+                  href="http://www.thankshop.co.kr/shopuser/goods/productList.html?largeno=92&kind=normal"
+                  class="ac4"
+                  target="blank"
+                >
+                  <div class="imc4"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/griptok_origin.jpg');
+                    "
+                    class="dis4"
+                  >
+                    Shapely
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">Accesorios para celular</p>
+          </div>
+          <div class="lists">
+            <div class="list3">
+              <div
+                style="
+                  background-image: url('../../static/img/cup_modified.jpg');
+                "
+                class="img"
+              >
+                <a href="http://www.handmc.com/" class="ac1" target="blank">
+                  <div class="imc1"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cup_origin.jpg');
+                    "
+                    class="dis1"
+                  >
+                    Handmadec
+                  </div>
+                </a>
+                <a href="http://www.jjomool.com/" class="ac2" target="blank">
+                  <div class="imc2"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cup_origin.jpg');
+                    "
+                    class="dis2"
+                  >
+                    Jjomoolshop
+                  </div>
+                </a>
+                <a
+                  href="https://www.tobuymall.com/goods/goods_list.php?cateCd=025002"
+                  class="ac3"
+                  target="blank"
+                >
+                  <div class="imc3"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cup_origin.jpg');
+                    "
+                    class="dis3"
+                  >
+                    TBL
+                  </div>
+                </a>
+                <a
+                  href="http://www.thankshop.co.kr/shopuser/index.html/"
+                  class="ac4"
+                  target="blank"
+                >
+                  <div class="imc4"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/cup_origin.jpg');
+                    "
+                    class="dis4"
+                  >
+                    Thankshop
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">Artículos de uso doméstico</p>
+          </div>
+          <div class="lists">
+            <div class="list4">
+              <div
+                style="
+                  background-image: url('../../static/img/sticker_modified.jpg');
+                "
+                class="img"
+              >
+                <a href="https://www.smilecat.com/" class="ac1" target="blank">
+                  <div class="imc1"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/sticker_origin.jpg');
+                    "
+                    class="dis1"
+                  >
+                    Smilecat
+                  </div>
+                </a>
+                <a href="http://www.adsland.com/" class="ac2" target="blank">
+                  <div class="imc2"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/sticker_origin.jpg');
+                    "
+                    class="dis2"
+                  >
+                    Adsland
+                  </div>
+                </a>
+                <a
+                  href="https://www.snaps.com/store/calendar/overview?g_media=google&g_keyword=%EB%8B%AC%EB%A0%A5%EC%A3%BC%EB%AC%B8%EC%A0%9C%EC%9E%91&gclid=Cj0KCQjw37iTBhCWARIsACBt1IzYqwP6nrQ9phP3ijLab9ZUS_XVVxpXajcShzw3rKgPN3-i7cy8jSwaAkElEALw_wcB"
+                  class="ac3"
+                  target="blank"
+                >
+                  <div class="imc3"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/sticker_origin.jpg');
+                    "
+                    class="dis3"
+                  >
+                    Snaps
+                  </div>
+                </a>
+                <a
+                  href="http://www.huniprinting.com/"
+                  class="ac4"
+                  target="blank"
+                >
+                  <div class="imc4"></div>
+                  <div
+                    style="
+                      background-image: url('../../static/img/sticker_origin.jpg');
+                    "
+                    class="dis4"
+                  >
+                    huniprinting
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="tes">otro</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="five" style="padding-top: 15rem">
+          <div>
+            <h1
+              style="
+                text-align: center;
+                font-size: 48px;
+                font-weight: 600;
+                color: aliceblue;
+                padding-bottom: 5rem;
+              "
+            >
+              Contacto 📧
+            </h1>
+          </div>
+          <div class="member">
+            <img
+              src="{{ url_for('static', filename = 'img/contact/khj.png') }}"
+            />
+            <p>Hanju Kim</p>
+            <p>E-mail : hanjukim0922@gmail.com</p>
+            <p>KakaoTalk : hj0922</p>
+          </div>
+          <div class="member">
+            <img
+              src="{{ url_for('static', filename = 'img/contact/kmj.png') }}"
+            />
+            <p>Minji Kim</p>
+            <p>E-mail : vp9397@naver.com</p>
+            <p>KakaoTalk : woodbvo12</p>
+          </div>
+          <div class="member">
+            <img
+              src="{{ url_for('static', filename = 'img/contact/syj.png') }}"
+            />
+            <p>Yeonjae Sung</p>
+            <p>E-mail : siriyay@naver.com</p>
+            <p>KakaoTalk : proofreadd</p>
+          </div>
+          <div class="member">
+            <img
+              src="{{ url_for('static', filename = 'img/contact/sjh.png') }}"
+            />
+            <p>Jongho Song</p>
+            <p>E-mail : sjh7397@naver.com</p>
+            <p>KakaoTalk : Lilac3</p>
+          </div>
+          <div class="member">
+            <img
+              src="{{ url_for('static', filename = 'img/contact/jyh.png') }}"
+            />
+            <p>JeongYeong Hoon</p>
+            <p>E-mail : gi93008@naver.com</p>
+            <p>KakaoTalk : gannak8</p>
+          </div>
+          <div>
+            <a href="https://www.limnpet.ml" class="ct">Home</a>
+            <a
+              href="http://limnpet.notion.site/LimnPet-537f6461d3234937ab94dee11671d22a"
+              class="ct"
+              >Notion</a
+            >
+            <a href="https://github.com/LiJell/Final-pjt" class="ct">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="six">
+          <div class="footer-info">
+            <p class="footer-info__name">
+              <img src="{{ url_for('static', filename = 'img/footer.png') }}" />
+            </p>
+            <p class="footer-info__text">
+              <span>림펫 LIMNPET</span>
+              |
+              <span>
+                <em>fuente</em>
+                <a
+                  href="/img_src"
+                  target="_blank"
+                  style="text-decoration: none; color: white"
+                >
+                  Fuente de imagen utilizada</a
+                >
+              </span>
+              |
+              <span>
+                <em>made by</em>
+                LIMNPET TEAM
+              </span>
+              |
+              <span>
+                <em>team_email</em>
+                allislijell@gmail.com
+              </span>
+              <br />
+              <br />
+
+              Política de derechos de autor
+              <br />
+              Este servicio está limitado solo para fines educativos. Todos los
+              derechos de copia están reservados para cada artista que
+              proporcionamos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    >
+      let test = document.getElementById("example");
+
+      test.addEventListener("mouseover", function (event) {
+      //highlight the mouseover target
+      event.target.style.color = "red";
+      }, false);
+
+      test.addEventListener("mouseout", function (event) {
+      // highlight the mouseout target
+      event.target.style.color = "black";
+      }, false);
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
