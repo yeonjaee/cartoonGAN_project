@@ -1,8 +1,15 @@
 # Cartoon stylization service project
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/LiJell/Final-pjt">
+    <img src="/assets/README/logo.png" alt="Logo" width="80" height="80">
   </a>
 <h3 align="center">LimnPet</h3>
 
@@ -16,7 +23,7 @@
     ·
     <a href="https://www.notion.so/limnpet/LimnPet-537f6461d3234937ab94dee11671d22a">Team notion</a>
     ·
-    <a href="#팀-소개">Members</a>
+    <a href="#팀소개">Members</a>
   </p>
 </div>
 
