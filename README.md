@@ -57,7 +57,7 @@ Cartoon stylization service project
     <img src="/assets/README/My%20project.jpg">
   </a>
 
-<p align="center">**LimnPet**은 반려견 커스텀 굿즈 제작 과정간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위해 GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스 팀프로젝트입니다.<p>
+<p align="center"> <span style="font-weight:bold">LimnPet</span>은 반려견 커스텀 굿즈 제작 과정간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위해 GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스 팀프로젝트입니다.<p>
 <br>
 <br>
 
