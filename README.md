@@ -1,16 +1,15 @@
 # Cartoon stylization service project
 
 <div align="center">
-  <a href="https://github.com/LiJell/Final-pjt">
-    <img src="/assets/README/My%20project.jpg">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
 <h3 align="center">LimnPet</h3>
 
   <p align="center">
-    project_description
+    프로젝트 설명
     <br />
-    <a href="https://github.com/LiJell/Final-pj"><strong>Explore the docs »</strong></a>
+    <a href="https://www.limnpet.ml/service"><strong>Try our service »</strong></a>
     <br />
     <br />
     <a href="https://www.limnpet.ml/">Home page</a>
@@ -51,12 +50,9 @@
 
 ## 프로젝트 소개
 
-<div align="center">
-	<a>
-    	<img src="assets/README/dog.jpg">
-    	<img src="assets/README/gif-16515419712193.gif">
-    </a>
-</div>
+  <a href="https://github.com/LiJell/Final-pjt">
+    <img src="/assets/README/My%20project.jpg">
+  </a>
 
 **LimnPet**은 반려견 커스텀 굿즈 제작 과정간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위해 GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스 팀프로젝트 입니다.
 
@@ -70,6 +66,13 @@ Here's Insight:
 
 - 굿즈 제작을 위한 그림 서비스를 전문가의 수작업이 필요하지 않도록 자동화할 수 있다면, 이원화된 서비스 제공으로 인한 고객의 불편함을 감소시키고 굿즈 제작에 대한 접근성을 높일 수 있을 것으로 판단된다.
 - 생성된 이미지를 기반으로 반려견 커스텀 굿즈(의류, 휴대폰 악세서리, 생활용품, 기타 등등)를 제작할 수 있도록 관련 업체와 사용자간 의사소통 채널 형성 기반 마련한다.
+
+<div align="center">
+	<a>
+    	<img src="assets/README/dog.jpg">
+    	<img src="assets/README/gif-16515419712193.gif">
+    </a>
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
