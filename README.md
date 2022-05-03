@@ -191,6 +191,9 @@ Cartoon stylization service project
 
 ## 서비스 시연 영상
 
+  <a href="https://www.youtube.com/watch?v=l4TzD4FMvKY">
+    <img src="/assets/README/6.jpg">
+  </a>
 <br><br>
 
 ## Roadmap
