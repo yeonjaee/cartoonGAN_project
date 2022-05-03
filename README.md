@@ -1,5 +1,8 @@
 # Cartoon stylization service project
 
+[![Contributors][contributors-shield]]
+
+<br>
 <div align="center">
   <a href="https://github.com/LiJell/Final-pjt">
     <img src="/assets/README/logo.png" alt="Logo" width="80" height="80">
