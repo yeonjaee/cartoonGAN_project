@@ -189,15 +189,33 @@ Cartoon stylization service project
 ⊕ 글로벌 웹페이지 사이트 지원(Korean, English, Japanese, Spanish, Chinese)
 <br><br>
 
-### 서비스 사용 예시
+## 서비스 시연 영상
 
 <br><br>
 
-## 향후 계획
+## Roadmap
 
+**1st. iteration**
+
+- [x] 데이터셋 수집 및 CartoonGAN 모델 학습
+- [x] CartoonGAN 모델을 이용하여 반려견 사진을 Cartoon화
+- [x] return 이미지를 웹에 post
+- [x] 소셜 네트워크 기능 추가(댓글 기능, SNS 공유기능)
+- [x] 웹 배포
+      <br>
+
+**2st. iteration**
+
+- [x] segmantation 모델을 추가. 이미지에서 반려견만을 추출하여 Cartoon화
+- [x] 웹 페이지 UI 추가 및 개선
+- [x] 굿즈 제작 회사 사이트 추가
 - [ ] 굿즈 제작 사업자 정보 제공, 사진을 굿즈 사업자에게 전달
-- [ ] plan 1) ReactNative를 이용한 앱 개발
-- [ ] plan 2) PWA를 이용한 앱 개발
+      <br>
+
+**3st. iteration**
+
+- [ ] Plan1) ReactNative를 이용한 앱 개발
+- [ ] Plan2) PWA를 이용한 앱 개발
 - [ ] 앱 마켓 출시 준비
 - [ ] 앱 배포
       <br><br>
