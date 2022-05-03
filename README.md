@@ -124,6 +124,8 @@ Cartoon stylization service project
 <img alt="Freenom" src ="https://img.shields.io/badge/Freenom-%23744AB.svg?&style=for-the-badge&logo=Freenom&logoColor=white"/>
 </div>
 
+<br/><br/>
+
 ### Team members
 
 <table align=center>
@@ -166,7 +168,7 @@ Cartoon stylization service project
   </tr>
 </table>
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## Implementation Features
 
@@ -186,9 +188,8 @@ Cartoon stylization service project
 ⊕ 사진 전체가 아닌 반려견 영역만 따로 추출하여 이미지 변환<br>
 ⊕ 저화질 이미지 화질 개선<br>
 ⊕ 글로벌 웹페이지 사이트 지원(Korean, English, Japanese, Spanish, Chinese)
-<br>
-<br>
-<br>
+
+<br/><br/><br/><br/>
 
 ## Service Demonstration Video
 
@@ -196,7 +197,8 @@ Cartoon stylization service project
     <img src="/assets/README/6.jpg">
   </a>
   <p align="center"> <i>사진을 클릭해주세요</i> </p>
-<br><br>
+
+<br/><br/><br/><br/>
 
 ## Roadmap
 
@@ -225,6 +227,8 @@ Cartoon stylization service project
 - [ ] 앱 배포
       <br><br>
 
+<br/><br/><br/><br/>
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -238,7 +242,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- CONTACT -->
+<br/><br/><br/><br/>
 
 ## Contact
 
@@ -253,6 +257,8 @@ Members's e-mail
 - YeongHoon Jeong: gi93008@naver.com
 
 Project Link: [Github](https://github.com/LiJell/Final-pjt), [Notion](https://limnpet.notion.site/LimnPet-537f6461d3234937ab94dee11671d22a)
+
+<br/><br/><br/><br/>
 
 ## Acknowledgments
 
