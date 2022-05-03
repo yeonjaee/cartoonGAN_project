@@ -64,6 +64,7 @@ Cartoon stylization service project
 만약 고객이 반려견 사진을 원본 그대로 이용하지 않고, 캐릭터화한 반려견 그림이나 초상화를 이용하여 커스텀 굿즈 제작을 의뢰하기 위해서는 상품 제작과는 별개로 그림을 그려주는 서비스를 제공받아야 합니다.
 
 하지만 고객의 입장에서 이러한 과정은 매우 번거롭고 비용도 많이 들 수 있다는 단점이 존재합니다.
+
 <br>
 <br>
 <br>
@@ -72,12 +73,15 @@ Cartoon stylization service project
 - 굿즈 제작을 위한 그림 서비스를 전문가의 수작업이 필요하지 않도록 자동화합니다.
 - 생성된 이미지를 기반으로 반려견 커스텀 굿즈(의류, 휴대폰 악세서리, 생활용품, 기타 등등)를 제작할 수 있도록 관련 업체와 사용자간 의사소통 채널 형성 기반 마련합니다.
 - 이원화된 서비스 제공으로 인한 고객의 불편함을 감소시키고 굿즈 제작에 대한 접근성을 높일 수 있습니다.
-  <br><br>
+  <br>
+  <br>
 
-<div align="center" style="width: 100%; height: 100%">
+<div align="center">
 	<a>
     <img src="assets/README/dog.jpg">
     <img src="assets/README/gif-16515419712193.gif">
+    <br><br>
+    더 자세한 프로젝트 소개와 문제 정의는 >> <a href="https://limnpet.notion.site/1-1-3076b068c2ee4f8986312c65a18ac6ac">Team notion</a> 에서..
   </a>
 </div>
   <br><br>
@@ -196,6 +200,7 @@ Cartoon stylization service project
   <a href="https://www.youtube.com/watch?v=l4TzD4FMvKY">
     <img src="/assets/README/6.jpg">
   </a>
+  <br>
   <p align="center"> <i>사진을 클릭해주세요</i> </p>
 
 <br/><br/><br/><br/>
