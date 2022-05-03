@@ -22,14 +22,13 @@ Cartoon stylization service project
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>목차</summary>
   <ol>
     <li>
-      <a href="#프로젝트-소개">프로젝트</a>
+      <a href="#About-the-Project">프로젝트 소개</a>
       <ul>
-        <li><a href="#팀소개">팀소개</a></li>
+        <li><a href="#팀소개">프로젝트 목표</a></li>
       </ul>
     </li>
     <li>
@@ -48,10 +47,9 @@ Cartoon stylization service project
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 <br>
 
-## 프로젝트 소개
+## About the Project
 
   <a href="https://github.com/LiJell/Final-pjt">
     <img src="/assets/README/My%20project.jpg">
@@ -83,7 +81,7 @@ Cartoon stylization service project
 </div>
   <br><br>
 
-### 프로젝트 목표
+### Goals of LimnPet Project
 
 - 이제는 가족의 구성원인 나의 반려동물만을 위한 카툰/그림 형식의 캐릭터 생성
 - 높은 비용과 오랜 제작기간이 필요한 수작업 반려동물 굿즈의 문제점을 해결
@@ -93,7 +91,7 @@ Cartoon stylization service project
 
 <br/><br/>
 
-### 기술 스택 및 수행 도구
+### Tech stack &
 
 <div align=center>
 <img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
@@ -125,7 +123,7 @@ Cartoon stylization service project
 <img alt="Freenom" src ="https://img.shields.io/badge/Freenom-%23744AB.svg?&style=for-the-badge&logo=Freenom&logoColor=white"/>
 </div>
 
-### 팀소개
+### Team member
 
 <table align=center>
   <tr>
@@ -194,6 +192,7 @@ Cartoon stylization service project
   <a href="https://www.youtube.com/watch?v=l4TzD4FMvKY">
     <img src="/assets/README/6.jpg">
   </a>
+  <p align="center"> 사진을 클릭해주세요 </p>
 <br><br>
 
 ## Roadmap
