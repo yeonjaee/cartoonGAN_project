@@ -1,6 +1,8 @@
 # Cartoon stylization service project
 
-[![Contributors][contributors-shield]]
+<div align=center>
+<img alt="Python" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>
+</div>
 
 <br>
 <div align="center">
