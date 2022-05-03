@@ -28,22 +28,23 @@ Cartoon stylization service project
     <li>
       <a href="#About-the-Project">프로젝트 소개</a>
       <ul>
-        <li><a href="#팀소개">프로젝트 목표</a></li>
+        <li><a href="#Goals-of-LimnPet-Project">프로젝트 목표</a></li>
+        <li><a href="#Used-Tech-stack-&-Tools">사용한 기술스택&수행도구 </a></li>
+        <li><a href="#Team-members">팀원</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Implementation-Features">구현 기능</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Key-Features">주요 기능</a></li>
+        <li><a href="#Additional-Features">추가 기능</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#Service-Demonstration-Video">서비스 시연 영상</a></li>
+    <li><a href="#Roadmap">로드맵</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contact">연락처</a></li>
+    <li><a href="#acknowledgments">참고 자료 및 코드 출처</a></li>
   </ol>
 </details>
 
@@ -91,7 +92,7 @@ Cartoon stylization service project
 
 <br/><br/>
 
-### Tech stack &
+### Used Tech stack & Tools
 
 <div align=center>
 <img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
@@ -123,7 +124,7 @@ Cartoon stylization service project
 <img alt="Freenom" src ="https://img.shields.io/badge/Freenom-%23744AB.svg?&style=for-the-badge&logo=Freenom&logoColor=white"/>
 </div>
 
-### Team member
+### Team members
 
 <table align=center>
   <tr>
@@ -167,9 +168,9 @@ Cartoon stylization service project
 
 <br/><br/>
 
-## 구현 기능
+## Implementation Features
 
-### 주요 기능
+### Key Features
 
 ✔ 반려견 사진 업로드 또는 촬영 및 원하는 스타일 선택<br>
 ✔ 학습된 모델을 통해 사진을 그림으로 변환<br>
@@ -180,19 +181,21 @@ Cartoon stylization service project
 ✔ 사용자가 선택한 업체 페이지로 이동<br>
 <br><br>
 
-### 추가 기능
+### Additional Features
 
 ⊕ 사진 전체가 아닌 반려견 영역만 따로 추출하여 이미지 변환<br>
 ⊕ 저화질 이미지 화질 개선<br>
 ⊕ 글로벌 웹페이지 사이트 지원(Korean, English, Japanese, Spanish, Chinese)
-<br><br>
+<br>
+<br>
+<br>
 
-## 서비스 시연 영상
+## Service Demonstration Video
 
   <a href="https://www.youtube.com/watch?v=l4TzD4FMvKY">
     <img src="/assets/README/6.jpg">
   </a>
-  <p align="center"> 사진을 클릭해주세요 </p>
+  <p align="center"> <i>사진을 클릭해주세요</i> </p>
 <br><br>
 
 ## Roadmap
