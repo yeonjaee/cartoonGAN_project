@@ -1,5 +1,5 @@
 <div align=center>
-[<img alt="Contributors" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>](https://github.com/LiJell/Final-pjt/graphs/contributors)
+<img alt="Contributors" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>
 <img alt="issues" src ="https://img.shields.io/badge/Issues-27-green.svg?&style=for-the-badge"/>
 </div>
 
@@ -70,11 +70,10 @@ Cartoon stylization service project
 <br>
 <b>Here's Insight:</b>
 
-- 굿즈 제작을 위한 그림 서비스를 전문가의 수작업이 필요하지 않도록 <u>자동화</u>합니다.
-- 생성된 이미지를 기반으로 반려견 커스텀 굿즈(의류, 휴대폰 악세서리, 생활용품, 기타 등등)를 제작할 수 있도록 관련 업체와 사용자간 <u>의사소통 채널</u> 형성 기반 마련합니다.
-- <u>이원화된 서비스</u> 제공으로 인한 고객의 불편함을 감소시키고 굿즈 제작에 대한 접근성을 높일 수 있습니다.
-  <br>
-  <br>
+- 굿즈 제작을 위한 그림 서비스를 전문가의 수작업이 필요하지 않도록 자동화합니다.
+- 생성된 이미지를 기반으로 반려견 커스텀 굿즈(의류, 휴대폰 악세서리, 생활용품, 기타 등등)를 제작할 수 있도록 관련 업체와 사용자간 의사소통 채널 형성 기반 마련합니다.
+- 이원화된 서비스 제공으로 인한 고객의 불편함을 감소시키고 굿즈 제작에 대한 접근성을 높일 수 있습니다.
+  <br><br>
 
 <div align="center">
 	<a>
@@ -82,18 +81,50 @@ Cartoon stylization service project
     <img src="assets/README/gif-16515419712193.gif">
   </a>
 </div>
-
+  <br>
 <p align="right">(<a href="#top">위로 가기</a>)</p>
 
-<!-- ### 프로젝트 목표
+### 프로젝트 목표
 
 - 이제는 가족의 구성원인 나의 반려동물만을 위한 카툰/그림 형식의 캐릭터 생성
 - 높은 비용과 오랜 제작기간이 필요한 수작업 반려동물 굿즈의 문제점을 해결
   - 전문가의 작업이 필요했던 반려동물 캐릭터화 또는 그림을 자동하여 비용과 시간을 절약
   - 생성된 이미지를 커스터마이징 굿즈 제작 업체에 제공하여 손쉽게 나만의 굿즈 구매
-- 반려동물과 커스터마이징 업체 중개를 통해 **반려동물 관련 새로운 시장 및 문화를 형성하고자 함**
+- 반려동물과 커스터마이징 업체 중개를 통해 **반려동물 관련 새로운 시장 및 문화를 형성**
 
 <br/><br/>
+
+### 기술 스택 및 수행 도구
+
+<div align=center>
+<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
+<img alt="html5" src ="https://img.shields.io/badge/html-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+<img alt="css3" src ="https://img.shields.io/badge/css-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+<img alt="Javascript" src ="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=Javascript&logoColor=white"/>
+<img alt="jQuery" src ="https://img.shields.io/badge/jQuery-%230769AD.svg?&style=for-the-badge&logo=jQuery&logoColor=white"/>
+<br><br>
+<img alt="Selenium" src ="https://img.shields.io/badge/Selenium-%2343B02A.svg?&style=for-the-badge&logo=Selenium&logoColor=white"/>
+<img alt="OpenCV" src ="https://img.shields.io/badge/OpenCV-%235C3EE8.svg?&style=for-the-badge&logo=OpenCV&logoColor=white"/>
+<img alt="Numpy" src ="https://img.shields.io/badge/Numpy-%23013243.svg?&style=for-the-badge&logo=Numpy&logoColor=white"/>
+<img alt="Tensorflow" src ="https://img.shields.io/badge/Tensorflow-%23FF6F00.svg?&style=for-the-badge&logo=Tensorflow&logoColor=white"/>
+<img alt="Pytorch" src ="https://img.shields.io/badge/Pytorch-%23EE4C2C.svg?&style=for-the-badge&logo=Pytorch&logoColor=white"/>
+<br><br>
+<img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=notion&logoColor=white"/>
+<img alt="GitHub" src ="https://img.shields.io/badge/Github-%23181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
+<img alt="Microsoft PowerPoint" src ="https://img.shields.io/badge/Microsoft%20PowerPoint-%23B7472A.svg?&style=for-the-badge&logo=Microsoft PowerPoint&logoColor=white"/>
+<img alt="adobe photoshop" src ="https://img.shields.io/badge/Adobe%20Photoshop-%2331A8FF.svg?&style=for-the-badge&logo=adobe photoshop&logoColor=white"/>
+<img alt="google drive" src ="https://img.shields.io/badge/google%20colab-%23F9AB00.svg?&style=for-the-badge&logo=googledrive&logoColor=white"/>
+<br><br>
+<img alt="google colab" src ="https://img.shields.io/badge/Googlecolab%20Drive-%234285F4.svg?&style=for-the-badge&logo=Googlecolab&logoColor=white"/>
+<img alt="Visual Studio Code" src ="https://img.shields.io/badge/Visual%20Studio%20Code-%20-%23007ACC.svg?&style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
+<br><br>
+<img alt="Addthis" src ="https://img.shields.io/badge/Addthis-%23FF6550.svg?&style=for-the-badge&logo=Addthis&logoColor=white"/>
+<img alt="Disqus" src ="https://img.shields.io/badge/Disqus-%232E9FFF.svg?&style=for-the-badge&logo=Disqus&logoColor=white"/>
+<img alt="Bootstrap" src ="https://img.shields.io/badge/Bootstrap-%237952B3.svg?&style=for-the-badge&logo=Bootstrap&logoColor=white"/>
+<img alt="Flask" src ="https://img.shields.io/badge/Flask-%23000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
+<img alt="Pythonanywhere" src ="https://img.shields.io/badge/Python-Anywhere-%233776AB.svg?&style=for-the-badge&logo=Pythonanywhere&logoColor=white"/>
+<img alt="Freenom" src ="https://img.shields.io/badge/Freenom-%23744AB.svg?&style=for-the-badge&logo=Freenom&logoColor=white"/>
+</div>
 
 ### 팀소개
 
@@ -139,41 +170,7 @@ Cartoon stylization service project
 
 <br/><br/>
 
-### 기술 스택 및 수행 도구
-
-<div align=center>
-<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
-<img alt="html5" src ="https://img.shields.io/badge/html-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-<img alt="css3" src ="https://img.shields.io/badge/css-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-<img alt="Javascript" src ="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=Javascript&logoColor=white"/>
-<img alt="jQuery" src ="https://img.shields.io/badge/jQuery-%230769AD.svg?&style=for-the-badge&logo=jQuery&logoColor=white"/>
-<br><br>
-<img alt="Selenium" src ="https://img.shields.io/badge/Selenium-%2343B02A.svg?&style=for-the-badge&logo=Selenium&logoColor=white"/>
-<img alt="OpenCV" src ="https://img.shields.io/badge/OpenCV-%235C3EE8.svg?&style=for-the-badge&logo=OpenCV&logoColor=white"/>
-<img alt="Numpy" src ="https://img.shields.io/badge/Numpy-%23013243.svg?&style=for-the-badge&logo=Numpy&logoColor=white"/>
-<img alt="Tensorflow" src ="https://img.shields.io/badge/Tensorflow-%23FF6F00.svg?&style=for-the-badge&logo=Tensorflow&logoColor=white"/>
-<img alt="Pytorch" src ="https://img.shields.io/badge/Pytorch-%23EE4C2C.svg?&style=for-the-badge&logo=Pytorch&logoColor=white"/>
-<br><br>
-<img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=notion&logoColor=white"/>
-<img alt="GitHub" src ="https://img.shields.io/badge/Github-%23181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
-<img alt="Microsoft PowerPoint" src ="https://img.shields.io/badge/Microsoft%20PowerPoint-%23B7472A.svg?&style=for-the-badge&logo=Microsoft PowerPoint&logoColor=white"/>
-<img alt="adobe photoshop" src ="https://img.shields.io/badge/Adobe%20Photoshop-%2331A8FF.svg?&style=for-the-badge&logo=adobe photoshop&logoColor=white"/>
-<img alt="google drive" src ="https://img.shields.io/badge/google%20colab-%23F9AB00.svg?&style=for-the-badge&logo=googledrive&logoColor=white"/>
-<br><br>
-<img alt="google colab" src ="https://img.shields.io/badge/Googlecolab%20Drive-%234285F4.svg?&style=for-the-badge&logo=Googlecolab&logoColor=white"/>
-<img alt="Visual Studio Code" src ="https://img.shields.io/badge/Visual%20Studio%20Code-%20-%23007ACC.svg?&style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
-<br><br>
-<img alt="Addthis" src ="https://img.shields.io/badge/Addthis-%23FF6550.svg?&style=for-the-badge&logo=Addthis&logoColor=white"/>
-<img alt="Disqus" src ="https://img.shields.io/badge/Disqus-%232E9FFF.svg?&style=for-the-badge&logo=Disqus&logoColor=white"/>
-<img alt="Bootstrap" src ="https://img.shields.io/badge/Bootstrap-%237952B3.svg?&style=for-the-badge&logo=Bootstrap&logoColor=white"/>
-<img alt="Flask" src ="https://img.shields.io/badge/Flask-%23000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
-<img alt="Pythonanywhere" src ="https://img.shields.io/badge/Python-Anywhere-%233776AB.svg?&style=for-the-badge&logo=Pythonanywhere&logoColor=white"/>
-<img alt="Freenom" src ="https://img.shields.io/badge/Freenom-%23744AB.svg?&style=for-the-badge&logo=Freenom&logoColor=white"/>
-</div>
-
-<br><br>
-
-## 구현 기능
+<!-- ## 구현 기능
 
 <br><br>
 
@@ -369,4 +366,4 @@ Real_esrGAN: https://github.com/xinntao/Real-ESRGAN
 
 ##### Plan2
 
-- PWA를 이용한 앱 생성 -->
+- PWA를 이용한 앱 생성 --> -->
