@@ -2,7 +2,7 @@
 
 ![My project](assets/README/My%20project.jpg)
 
-<div align="center">
+<div text-align="center">
 
 ### 목차
 
