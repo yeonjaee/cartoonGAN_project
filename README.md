@@ -1,5 +1,5 @@
 <div align=center>
-<img alt="Contributors" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>
+[<img alt="Contributors" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>](https://github.com/LiJell/Final-pjt/graphs/contributors)
 <img alt="issues" src ="https://img.shields.io/badge/Issues-27-green.svg?&style=for-the-badge"/>
 </div>
 
@@ -76,7 +76,7 @@ Cartoon stylization service project
   <br>
   <br>
 
-<div align="center" style="width:100%">
+<div align="center">
 	<a>
     <img src="assets/README/dog.jpg">
     <img src="assets/README/gif-16515419712193.gif">
