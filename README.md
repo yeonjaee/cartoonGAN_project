@@ -29,7 +29,7 @@ Cartoon stylization service project
       <a href="#About-the-Project">프로젝트 소개</a>
       <ul>
         <li><a href="#Goals-of-LimnPet-Project">프로젝트 목표</a></li>
-        <li><a href="#Used-Tech-stack-&-Tools">사용한 기술스택&수행도구 </a></li>
+        <li><a href="#Used-Tech-stack-&-Tools">사용한 기술스택과 수행도구 </a></li>
         <li><a href="#Team-members">팀원</a></li>
       </ul>
     </li>
@@ -42,7 +42,7 @@ Cartoon stylization service project
     </li>
     <li><a href="#Service-Demonstration-Video">서비스 시연 영상</a></li>
     <li><a href="#Roadmap">로드맵</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contributing">기여하기</a></li>
     <li><a href="#contact">연락처</a></li>
     <li><a href="#acknowledgments">참고 자료 및 코드 출처</a></li>
   </ol>
@@ -74,7 +74,7 @@ Cartoon stylization service project
 - 이원화된 서비스 제공으로 인한 고객의 불편함을 감소시키고 굿즈 제작에 대한 접근성을 높일 수 있습니다.
   <br><br>
 
-<div align="center">
+<div align="center" style="width: 100%; height: 100%">
 	<a>
     <img src="assets/README/dog.jpg">
     <img src="assets/README/gif-16515419712193.gif">
@@ -231,10 +231,8 @@ Cartoon stylization service project
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+이 문제를 개선할 수 있는 제안이 있다면, repo를 전환하고 pull 요청 해주세요. 당신이 어떤 공헌을 하든지간에 대단히 감사합니다!<br>
+또한 "enhancement" 태그로 간단히 issues를 보실 수 있습니다. 이 프로젝트에 별을 주는 것을 잊지 마세요! 다시 한 번 감사합니다!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
