@@ -60,11 +60,11 @@ Cartoon stylization service project
 <p align="center"><br><b>LimnPet</b>은 커스텀 굿즈 제작 과정 간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위한<br> GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스입니다.<p>
 <br>
 <br>
-최근 성장하는 반려동물 시장과 반려동물을 가족 구성원으로 인식하고 감정을 가진 하나의 인격체로 대우하는 현상인 펫 휴머나이제이션 트렌드가 확산되고 있습니다. 때문에 개성을 중요하게 생각하는 MZ세대는 반려동물 옷이나 액세서리를 통해 일명 ‘펫부심’을 드러내려합니다.
+최근 성장하는 반려동물 시장과 반려동물을 가족 구성원으로 인식하고 감정을 가진 하나의 인격체로 대우하는 현상인 펫 휴머나이제이션 트렌드가 확산되고 있습니다. 때문에 개성을 중요하게 생각하는 MZ세대의 반려인은 반려동물 옷이나 액세서리를 통해 일명 <b>‘펫부심’</b>을 드러내려합니다.
 
 만약 고객이 반려견 사진을 원본 그대로 이용하지 않고, 캐릭터화한 반려견 그림이나 초상화를 이용하여 커스텀 굿즈 제작을 의뢰하기 위해서는 상품 제작과는 별개로 그림을 그려주는 서비스를 제공받아야 합니다.
 
-때문에 고객의 입장에서 이러한 과정은 매우 번거롭고 비용도 많이 들 수 있다는 단점이 존재합니다.
+하지만 고객의 입장에서 이러한 과정은 매우 번거롭고 비용도 많이 들 수 있다는 단점이 존재합니다.
 <br>
 <br>
 <br>
@@ -81,8 +81,7 @@ Cartoon stylization service project
     <img src="assets/README/gif-16515419712193.gif">
   </a>
 </div>
-  <br>
-<p align="right">(<a href="#top">위로 가기</a>)</p>
+  <br><br>
 
 ### 프로젝트 목표
 
@@ -102,7 +101,7 @@ Cartoon stylization service project
 <img alt="css3" src ="https://img.shields.io/badge/css-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 <img alt="Javascript" src ="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=Javascript&logoColor=white"/>
 <img alt="jQuery" src ="https://img.shields.io/badge/jQuery-%230769AD.svg?&style=for-the-badge&logo=jQuery&logoColor=white"/>
-<br><br>
+<br>
 <img alt="Selenium" src ="https://img.shields.io/badge/Selenium-%2343B02A.svg?&style=for-the-badge&logo=Selenium&logoColor=white"/>
 <img alt="OpenCV" src ="https://img.shields.io/badge/OpenCV-%235C3EE8.svg?&style=for-the-badge&logo=OpenCV&logoColor=white"/>
 <img alt="Numpy" src ="https://img.shields.io/badge/Numpy-%23013243.svg?&style=for-the-badge&logo=Numpy&logoColor=white"/>
