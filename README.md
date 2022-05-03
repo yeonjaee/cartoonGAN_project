@@ -107,16 +107,16 @@ Cartoon stylization service project
 <img alt="Numpy" src ="https://img.shields.io/badge/Numpy-%23013243.svg?&style=for-the-badge&logo=Numpy&logoColor=white"/>
 <img alt="Tensorflow" src ="https://img.shields.io/badge/Tensorflow-%23FF6F00.svg?&style=for-the-badge&logo=Tensorflow&logoColor=white"/>
 <img alt="Pytorch" src ="https://img.shields.io/badge/Pytorch-%23EE4C2C.svg?&style=for-the-badge&logo=Pytorch&logoColor=white"/>
-<br><br>
+<br>
 <img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=notion&logoColor=white"/>
 <img alt="GitHub" src ="https://img.shields.io/badge/Github-%23181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
 <img alt="Microsoft PowerPoint" src ="https://img.shields.io/badge/Microsoft%20PowerPoint-%23B7472A.svg?&style=for-the-badge&logo=Microsoft PowerPoint&logoColor=white"/>
 <img alt="adobe photoshop" src ="https://img.shields.io/badge/Adobe%20Photoshop-%2331A8FF.svg?&style=for-the-badge&logo=adobe photoshop&logoColor=white"/>
 <img alt="google drive" src ="https://img.shields.io/badge/google%20colab-%23F9AB00.svg?&style=for-the-badge&logo=googledrive&logoColor=white"/>
-<br><br>
+<br>
 <img alt="google colab" src ="https://img.shields.io/badge/Googlecolab%20Drive-%234285F4.svg?&style=for-the-badge&logo=Googlecolab&logoColor=white"/>
-<img alt="Visual Studio Code" src ="https://img.shields.io/badge/Visual%20Studio%20Code-%20-%23007ACC.svg?&style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
-<br><br>
+<img alt="Visual Studio Code" src ="https://img.shields.io/badge/Visual%20Studio%20Code-%23007ACC.svg?&style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
+<br>
 <img alt="Addthis" src ="https://img.shields.io/badge/Addthis-%23FF6550.svg?&style=for-the-badge&logo=Addthis&logoColor=white"/>
 <img alt="Disqus" src ="https://img.shields.io/badge/Disqus-%232E9FFF.svg?&style=for-the-badge&logo=Disqus&logoColor=white"/>
 <img alt="Bootstrap" src ="https://img.shields.io/badge/Bootstrap-%237952B3.svg?&style=for-the-badge&logo=Bootstrap&logoColor=white"/>
