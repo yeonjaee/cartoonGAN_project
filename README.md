@@ -1,7 +1,8 @@
 # Cartoon stylization service project
 
 <div align=center>
-<img alt="Python" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>
+<img alt="Contributors" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>
+<img alt="issues" src ="https://img.shields.io/badge/Issues-27-green.svg?&style=for-the-badge"/>
 </div>
 
 <br>
