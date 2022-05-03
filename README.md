@@ -1,37 +1,55 @@
 # Cartoon stylization service project
 
-![My project](assets/README/My%20project.jpg)
+<div align="center">
+  <a href="https://github.com/LiJell/Final-pjt">
+    <img src="/assets/README/My%20project.jpg">
+  </a>
 
-<div style="text-align=center">
-<a>
+<h3 align="center">LimnPet</h3>
 
-### 목차
-
-1. [프로젝트 소개](#프로젝트-소개)
-
-   1. 프로젝트 목표
-   2. 팀소개
-   3. 기술 스택 및 수행 도구
-
-2. [구현 기능](#구현-기능)
-
-   1. 주요 기능
-   2. 추가 기능
-
-3. [향후 계획](#향후-계획)
-
-4. [자료 및 코드 출처](#자료-및-코드-출처)
-</a>
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/LiJell/Final-pj"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.limnpet.ml/">Home page</a>
+    ·
+    <a href="https://www.notion.so/limnpet/LimnPet-537f6461d3234937ab94dee11671d22a">Team notion</a>
+    ·
+    <a href="#팀-소개">Members</a>
+  </p>
 </div>
-<br/><br/>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>목차</summary>
+  <ol>
+    <li>
+      <a href="#프로젝트-소개">프로젝트</a>
+      <ul>
+        <li><a href="#팀소개">팀소개</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
 
 ## 프로젝트 소개
-
-**LimnPet**은 반려견 커스텀 굿즈 제작 과정간 따로 그림 서비스를 받아야하는 불편함을 해소하기 위한 GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스 구현 팀프로젝트입니다.
-
-생성된 이미지를 기반으로 반려견 커스텀 굿즈(의류, 휴대폰 악세서리, 생활용품, 기타 등등)를 제작할 수 있도록 관련 업체와 사용자간 의사소통 채널 형성 기반 마련합니다.
-
-[프로젝트 홈페이지](https://www.limnpet.ml/)에서 서비스를 체험해보실 수 있으며, 프로젝트에 대한 자세한 내용은 [Team notion](https://www.notion.so/limnpet/LimnPet-537f6461d3234937ab94dee11671d22a)에 작성되어 있습니다.
 
 <div align="center">
 	<a>
@@ -40,9 +58,22 @@
     </a>
 </div>
 
-<br/><br/>
+**LimnPet**은 반려견 커스텀 굿즈 제작 과정간 따로 그림 서비스를 받아야 하는 불편함을 해소하기 위해 GAN 기반 반려견 그림 자동 생성 및 저장/공유 서비스 팀프로젝트 입니다.
 
-### 프로젝트 목표
+최근 성장하는 반려동물 시장과 반려동물을 가족 구성원으로 인식하고 감정을 가진 하나의 인격체로 대우하는 현상인 펫 휴머나이제이션 트렌드가 확산되고 있다. 또한, 개성을 중요하게 생각하는 MZ세대는 반려동물 옷이나 액세서리를 통해 일명 ‘펫부심’을 드러내려한다.
+
+만약 반려견 사진을 원본 그대로 이용하지 않고 캐릭터화한 반려견 그림이나 초상화를 이용하여 커스텀 굿즈 제작을 의뢰하기 위해서는 상품 제작과는 별개로 그림을 그려주는 서비스를 제공받아야한다. 실제로 이러한 서비스는 크몽, 아이디어스, 기타 중고거래 플랫폼 등에서 거래가 이루어 지고 있다.
+
+하지만 이는 고객 입장에서 원하는 굿즈 제작을 위해 이중으로 서비스를 받아야하므로 비용과 시간 측면에서 문제점이 존재한다.
+
+Here's Insight:
+
+- 굿즈 제작을 위한 그림 서비스를 전문가의 수작업이 필요하지 않도록 자동화할 수 있다면, 이원화된 서비스 제공으로 인한 고객의 불편함을 감소시키고 굿즈 제작에 대한 접근성을 높일 수 있을 것으로 판단된다.
+- 생성된 이미지를 기반으로 반려견 커스텀 굿즈(의류, 휴대폰 악세서리, 생활용품, 기타 등등)를 제작할 수 있도록 관련 업체와 사용자간 의사소통 채널 형성 기반 마련한다.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ### 프로젝트 목표
 
 - 이제는 가족의 구성원인 나의 반려동물만을 위한 카툰/그림 형식의 캐릭터 생성
 - 높은 비용과 오랜 제작기간이 필요한 수작업 반려동물 굿즈의 문제점을 해결
@@ -326,4 +357,4 @@ Real_esrGAN: https://github.com/xinntao/Real-ESRGAN
 
 ##### Plan2
 
-- PWA를 이용한 앱 생성
+- PWA를 이용한 앱 생성 -->
