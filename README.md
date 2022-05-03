@@ -231,8 +231,8 @@ Cartoon stylization service project
 
 ## Contributing
 
-이 문제를 개선할 수 있는 제안이 있다면, repo를 전환하고 pull 요청 해주세요. 당신이 어떤 공헌을 하든지간에 대단히 감사합니다!<br>
-또한 "enhancement" 태그로 간단히 issues를 보실 수 있습니다. 이 프로젝트에 별을 주는 것을 잊지 마세요! 다시 한 번 감사합니다!
+이 문제를 개선할 수 있는 제안이 있다면, repo를 전환하고 pull 요청 해주세요.<br>
+또한 "enhancement" 태그로 간단히 issues를 보실 수 있습니다. 이 프로젝트에 별을 주는 것을 잊지 마세요!<br>다시 한 번 감사합니다!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
