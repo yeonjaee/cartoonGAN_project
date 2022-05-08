@@ -1,3 +1,5 @@
+<div id = "top"></div>
+
 <div align=center>
     <a href="https://github.com/LiJell/Final-pjt/graphs/contributors">
 		<img alt="Contributors" src ="https://img.shields.io/badge/Contributors-5-brightgreen.svg?&style=for-the-badge"/>
@@ -5,7 +7,12 @@
 	<a href="https://github.com/LiJell/Final-pjt/issues?q=is%3Aissue+is%3Aclosed">
     	<img alt="issues" src ="https://img.shields.io/badge/Issues-27-green.svg?&style=for-the-badge"/>
     </a>
+	<a href="https://github.com/LiJell/Final-pjt/stargazers">
+    	<img alt="issues" src ="https://img.shields.io/badge/STARS-8-yellow.svg?&style=for-the-badge"/>
+    </a>
 </div>
+
+
 <br>
 
 <div align="center">
@@ -27,7 +34,6 @@ Cartoon stylization service project
 </div>
 
 
-
 <details>
   <summary>목차</summary>
   <ol>
@@ -46,6 +52,7 @@ Cartoon stylization service project
         <li><a href="#Additional-Features">추가 기능</a></li>
       </ul>
     </li>
+    <li><a href="#How-to-use">사용 방법</a></li>
     <li><a href="#Service-Demonstration-Video">서비스 시연 영상</a></li>
     <li><a href="#Roadmap">로드맵</a></li>
     <li><a href="#contributing">기여하기</a></li>
@@ -53,6 +60,7 @@ Cartoon stylization service project
     <li><a href="#acknowledgments">참고 자료 및 코드 출처</a></li>
   </ol>
 </details>
+
 <br>
 
 ## About the Project
@@ -89,14 +97,15 @@ Cartoon stylization service project
 
 <div align="center">
 	<a>
-    <img src="assets/README/dog.jpg">
-    <img src="assets/README/gif-16515419712193.gif">
-    <br><br>
-    <u>더 자세한 프로젝트 소개와 문제 정의는</u> >> <a href="https://limnpet.notion.site/1-1-3076b068c2ee4f8986312c65a18ac6ac">Team notion</a> 에서..
-  </a>
+    	<img src="assets/README/dog.jpg">
+    	<img src="assets/README/gif-16515419712193.gif">
+    	<br><br>
+    	<i>더 자세한 프로젝트 소개와 문제 정의는 »</i>
+        <a href="https://limnpet.notion.site/1-1-3076b068c2ee4f8986312c65a18ac6ac">Team notion</a> 에서.. 
+  	</a>
 </div>
 
-  <br><br>
+<br><br>
 
 ### Goals of LimnPet Project
 
@@ -110,7 +119,7 @@ Cartoon stylization service project
 
 <br/><br/>
 
-### Used Tech stack & Tools
+### Used Tech stacks & Tools
 
 <br>
 
@@ -131,17 +140,18 @@ Cartoon stylization service project
 <img alt="GitHub" src ="https://img.shields.io/badge/Github-%23181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
 <img alt="Microsoft PowerPoint" src ="https://img.shields.io/badge/Microsoft%20PowerPoint-%23B7472A.svg?&style=for-the-badge&logo=Microsoft PowerPoint&logoColor=white"/>
 <img alt="adobe photoshop" src ="https://img.shields.io/badge/Adobe%20Photoshop-%2331A8FF.svg?&style=for-the-badge&logo=adobe photoshop&logoColor=white"/>
-<img alt="google drive" src ="https://img.shields.io/badge/google%20colab-%23F9AB00.svg?&style=for-the-badge&logo=googledrive&logoColor=white"/>
+<img alt="google drive" src ="https://img.shields.io/badge/Googlecolab%20Drive-%234285F4.svg?&style=for-the-badge&logo=Googlecolab&logoColor=white"/>
 <br>
-<img alt="google colab" src ="https://img.shields.io/badge/Googlecolab%20Drive-%234285F4.svg?&style=for-the-badge&logo=Googlecolab&logoColor=white"/>
+<img alt="diagrams" src ="https://img.shields.io/badge/diagrams.net-%23F08705.svg?&style=for-the-badge&logo=diagrams&logoColor=white"/>    
+<img alt="google colab" src ="https://img.shields.io/badge/google%20colab-%23F9AB00.svg?&style=for-the-badge&logo=googledrive&logoColor=white"/>
 <img alt="Visual Studio Code" src ="https://img.shields.io/badge/Visual%20Studio%20Code-%23007ACC.svg?&style=for-the-badge&logo=VisualStudioCode&logoColor=white"/>
 <br>
 <img alt="Addthis" src ="https://img.shields.io/badge/Addthis-%23FF6550.svg?&style=for-the-badge&logo=Addthis&logoColor=white"/>
 <img alt="Disqus" src ="https://img.shields.io/badge/Disqus-%232E9FFF.svg?&style=for-the-badge&logo=Disqus&logoColor=white"/>
 <img alt="Bootstrap" src ="https://img.shields.io/badge/Bootstrap-%237952B3.svg?&style=for-the-badge&logo=Bootstrap&logoColor=white"/>
 <img alt="Flask" src ="https://img.shields.io/badge/Flask-%23000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
-<img alt="Pythonanywhere" src ="https://img.shields.io/badge/Python-Anywhere-%233776AB.svg?&style=for-the-badge&logo=Pythonanywhere&logoColor=white"/>
-<img alt="Freenom" src ="https://img.shields.io/badge/Freenom-%23744AB.svg?&style=for-the-badge&logo=Freenom&logoColor=white"/>
+<img alt="Pythonanywhere" src ="https://img.shields.io/badge/PythonAnywhere-%233776AB.svg?&style=for-the-badge&logo=Pythonanywhere&logoColor=white"/>
+<img alt="freenom" src ="https://img.shields.io/badge/freenom-brightgreen.svg?&style=for-the-badge&logo=freenom&logoColor=white"/>
 </div>
 
 <br/><br/>
@@ -212,6 +222,24 @@ Cartoon stylization service project
 
 <br/><br/><br/><br/>
 
+## How to use
+
+<div>
+    1. <a href="https://www.limnpet.ml/">홈페이지 접속</a> 방법<br>
+    &nbsp;&nbsp;1️⃣ Service 페이지 접속<br>
+    &nbsp;&nbsp;2️⃣ 스타일 선택 및 이미지 업로드<br>
+    &nbsp;&nbsp;3️⃣ Draw picture 버튼 클릭 또는 Improve resolution 버튼 클릭<br>
+    &nbsp;&nbsp;4️⃣ 출력/결과 이미지 저장<br>
+    &nbsp;&nbsp;5️⃣ 굿즈 사이트에서 주문 의뢰<br>
+<br>
+<br>
+2. 로컬 서버 실행 방법<br>
+	&nbsp;&nbsp;1️⃣ app.py 파일 실행<br>
+    &nbsp;&nbsp;2️⃣ localhost 주소로 접속<br>
+	&nbsp;&nbsp;3️⃣ 위의 과정과 동일<br>
+</div>
+<br/><br/><br/><br/>
+
 ## Service Demonstration Video
 
   <a href="https://www.youtube.com/watch?v=l4TzD4FMvKY">
@@ -226,8 +254,6 @@ Cartoon stylization service project
 
 **1st. iteration**
 
-<br>
-
 - [x] 데이터셋 수집 및 CartoonGAN 모델 학습
 
 - [x] CartoonGAN 모델을 이용하여 반려견 사진을 Cartoon화
@@ -237,9 +263,9 @@ Cartoon stylization service project
 - [x] 소셜 네트워크 기능 추가(댓글 기능, SNS 공유기능)
 
 - [x] 웹 배포
-  <br>
-  
-  <br>
+<br>
+
+<br>
 
 **2st. iteration**
 
@@ -250,24 +276,86 @@ Cartoon stylization service project
 - [x] 굿즈 제작 회사 사이트 추가
 
 - [ ] 굿즈 제작 사업자 정보 제공, 사진을 굿즈 사업자에게 전달
-      <br>
-  
   <br>
+  
+
+<br>
 
 **3st. iteration**
 
-- [ ] Plan1) ReactNative를 이용한 앱 개발
+- [x] Plan1) ReactNative를 이용한 앱 개발
+
 - [ ] Plan2) PWA를 이용한 앱 개발
-- [ ] 앱 마켓 출시 준비
-- [ ] 앱 배포
-  
+
+- [x] 앱 마켓 출시 준비 (Google Play)
+
+- [x] 앱 Open testing release 대기
+
+<br>
+
+**TODO list in the near future:**
+
+- [ ] 이미지 분할 기능 분리
+
+  - 사용자가 직접 배경을 미리 제거한 사진을 그대로 이용할 수 있도록 해당 기능 분리
+
+  - 기능 분할 시, 아래와 같은 이점이 존재
+    - 분할 모델이 반려견을 제대로 인식하지 못한 경우에 대한 결과 방지
+    - 사용자가 배경을 포함한 이미지를 변환하길 원하는 경우에 대한 선택권 제공
+
+
+
+- [ ] 이미지 변환과 해상도 개선 기능 통합
+
+  - 저화질의 이미지가 필요한 경우는 존재하지 않음
+
+  - 현 프로젝트에서는 서버 자원 문제로 해당 기능들을 분할했으나, 실제로는 통합이 필요
+
+
+
+- [ ] cartoonGAN 모델 성능 평가 및 개선
+
+  - 충분하지 못한 학습으로 인해 이미지 일부만 변환되는 결과가 존재, 학습 횟수를 늘려 모델의 안정성 확보 필요
+
+  - 현 프로젝트에서는 객관적인 모델 평가 지표에 대한 성능 평가가 이루어지지 않았으므로, 최근 GAN 모델의 평가 지표 관련 연구를 참고해 객관적인 평가 필요
+
+
+
+- [ ] 커뮤니티 및 갤러리 기능 추가
+
+  - 사용자들이 저장한 결과 이미지들을 타 플랫폼이 아닌 웹 페이지 내에서 서로 공유할 수 있도록 커뮤니티 및 갤러리 기능을 추가
+
+  - 사용자 잔존율 향상 기대
+
+
+
+- [ ] 반려동물 범위 확장
+  - 고양이, 앵무새 등 다양한 반려동물에 대해 서비스 범위 확대
+
+
+
+- [ ] 굿즈샵들과의 연계를 통한 거래 중개 역할 강화
+
+  - 각 업체와의 연계를 통해 범위를 확장시켜, 단순 목록 제공이 아닌 굿즈 제작 및 결제까지 페이지 내에서 수행할 수 있도록 웹 페이지 개선
+
+  - 업체별 리뷰 및 평점 기능을 구현해 사용자와 굿즈 업체 간 의사소통 채널 형성 기반 마련
+
+
+
+- [ ] 부가 서비스 제공
+  - 아래 예시와 같은 다양한 부가 서비스 추가 제공
+    - 그림 이모티콘화
+    - 유명 작가 및 굿즈샵과의 연계를 통한 자체 제작 굿즈 판매
+    - 사용자가 직접 자신의 반려견을 이용한 굿즈를 만들어 거래
 
 <br/><br/><br/><br/>
 
 ## Contributing
 
-이 문제를 개선할 수 있는 제안이 있다면, repo를 전환하고 pull 요청 해주세요.<br>
-또한 "enhancement" 태그로 간단히 issues를 보실 수 있습니다. 이 프로젝트에 별을 주는 것을 잊지 마세요!<br>다시 한 번 감사합니다!
+이 프로젝트의 서비스 모델을 개선할 수 있는 제안이 있다면, repo를 전환하고 pull 요청을 해주세요.<br>
+또한 Issues 에서 "enhancement" 태그로 간단히 issue를 열어보고 기능 추가를 해보실 수 있습니다.<br>이 프로젝트에 별을 주는 것도 잊지 마세요. 감사합니다!
+
+<br>
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
